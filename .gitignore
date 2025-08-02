@@ -1,0 +1,83 @@
+# Dependencies
+node_modules/
+/frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production builds
+/frontend/dist/
+/frontend/build/
+
+# Backend
+/backend/.env
+/backend/shopping_cart.db
+/backend/bin/
+/backend/coverage.out
+/backend/main
+/backend/*.exe
+/backend/*.exe~
+/backend/*.dll
+/backend/*.so
+/backend/*.dylib
+/backend/*.test
+/backend/*.out
+/backend/go.work
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Vercel
+.vercel
+
+# Local development
+.local
+
+# Coverage
+coverage/
+.nyc_output
+
+# Cache
+.cache
+.parcel-cache
+.npm
+.eslintcache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# System and Graphics Cache (Windows)
+AppData/
+**/AppData/**
+*.bin
+DxCache/
+AMD/
+
+# Temporary files
+*.tmp
+*.temp

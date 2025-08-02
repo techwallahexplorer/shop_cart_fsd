@@ -1,0 +1,27 @@
+{
+  "name": "fullstack-shopping-cart",
+  "version": "1.0.0",
+  "description": "A fullstack shopping cart application with Go backend and React frontend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd frontend && npm run dev\" \"cd backend && go run *.go\"",
+    "build": "cd frontend && npm run build",
+    "start": "cd frontend && npm run preview",
+    "install-all": "cd frontend && npm install",
+    "backend-dev": "cd backend && go run *.go",
+    "frontend-dev": "cd frontend && npm run dev"
+  },
+  "keywords": [
+    "shopping-cart",
+    "ecommerce",
+    "react",
+    "golang",
+    "fullstack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "type": "commonjs"
+}
