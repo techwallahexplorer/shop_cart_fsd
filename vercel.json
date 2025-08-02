@@ -9,23 +9,18 @@
       }
     },
     {
-      "src": "backend/*.go",
+      "src": "api/index.go",
       "use": "@vercel/go"
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/backend/main.go"
+      "dest": "/api/index.go"
     },
     {
       "src": "/(.*)",
       "dest": "/frontend/$1"
     }
-  ],
-  "functions": {
-    "backend/*.go": {
-      "runtime": "go1.x"
-    }
-  }
+  ]
 }
